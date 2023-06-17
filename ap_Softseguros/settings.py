@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'ap_Softseguros.wsgi.application'
 
 DATABASES = {
     'default': {'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'softseguros',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'Andres.0206',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'PASSWORD': 'zBaXYglUImpvpTSNSEsT',
+        'HOST': 'containers-us-west-131.railway.app',
+        'PORT': '7479',
     }
 }
 
