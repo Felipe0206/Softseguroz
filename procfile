@@ -1,0 +1,1 @@
+web: gunicorn ap_Softseguros.wsgi --log-file-
