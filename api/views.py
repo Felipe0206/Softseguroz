@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
+
 # Importa las clases necesarias de Django REST Framework y tus archivos locales
 from rest_framework import generics
 from .models import Cliente
