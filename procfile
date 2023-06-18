@@ -1,1 +1,1 @@
-web: gunicorn 'ap_Softseguros.wsgi'
+web: gunicorn ap_Softseguros.wsgi
