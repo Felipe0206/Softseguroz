@@ -89,8 +89,12 @@ DATABASES = {
         'PORT': '7479',
         'OPTIONS': {
             'charset': 'utf8mb4',
-            'sql_mode': 'traditional',
-            'read_timeout': 3600,
+            'sql_mode': 'strict_trans_tables',
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        },
+        'TEST': {
+            'CHARSET': 'utf8mb4',
+            'COLLATION': 'utf8mb4_unicode_ci',
         },
     }
 }
