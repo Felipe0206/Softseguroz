@@ -80,12 +80,18 @@ WSGI_APPLICATION = 'ap_Softseguros.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {'ENGINE': 'django.db.backends.mysql',
+    'default':{
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'railway',
         'USER': 'root',
         'PASSWORD': 'zBaXYglUImpvpTSNSEsT',
         'HOST': 'containers-us-west-131.railway.app',
         'PORT': '7479',
+        'OPTIONS': {
+            'charset': 'utf8mb4',
+            'sql_mode': 'traditional',
+            'read_timeout': 3600,
+        },
     }
 }
 
